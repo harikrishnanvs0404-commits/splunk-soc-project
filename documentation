@@ -1,0 +1,7 @@
+# Architecture Overview
+
+The environment consists of a centralized Splunk Enterprise server deployed on Windows,
+receiving logs from an Ubuntu Linux agent and a Windows agent via Splunk Universal Forwarder.
+
+Log forwarding is performed over port 9997, enabling centralized indexing and analysis
+for SOC monitoring and threat detection.
